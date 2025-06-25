@@ -301,7 +301,7 @@ async function callGemini(prompt) {
     geminiModalContent.innerHTML = '<p class="text-center">Memproses permintaan Anda dengan Asisten... 🧠</p>';
     // PERINGATAN: Kunci API sebaiknya tidak diletakkan langsung di kode sisi klien.
     // Untuk keamanan, gunakan environment variables di Netlify dan panggil melalui Netlify Functions.
-    const apiKey = ""; // <-- Masukkan Kunci API Google Anda di sini.
+    const apiKey = "AIzaSyBc1qyPnX898PuQrqzpQhwmUJ-h9b3t6lM"; // <-- Masukkan Kunci API Google Anda di sini.
     if (!apiKey) {
         geminiModalContent.innerHTML = '<p class="text-center text-red-600 font-bold">Kunci API belum diatur. Harap masukkan kunci API di file script.js.</p>';
         return;
